@@ -1,3 +1,30 @@
+# Authentication with AdonisJs
+
+This is my first result of studying adonisJs
+
+# Installing
+
+1. clone this project
+```
+git clone https://github.com/ululajib/auth-adonisjs.git
+```
+2. run npm install, for install package javascript
+```
+npm install
+```
+3. Setup file .env, copy file .env.example or rename file
+4. run migration database. go directory auth-adonisjs and run:
+
+```
+adonis migration:run
+```
+note: or please check the adonisjs documentation, for migration database
+5. run
+```
+adonis serve --dev
+``` 
+
+
 # Adonis fullstack application
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
